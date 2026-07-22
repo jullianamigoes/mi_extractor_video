@@ -42,8 +42,9 @@ mi_extractor_video/
   2. Abrimos la terminal bash o cmd. Nos ubicamos en la raíz del proyecto y ejecutamos el siguiente comando:
 
 ```text
-    python install -r requirements.txt
+python install -r requirements.txt
 ```
+
 
 ----
 
@@ -56,9 +57,11 @@ mi_extractor_video/
 python app.py
 ```
 
+
   Nos mostrará el enlace de la web el cual debemos acceder presionando tecla **CRTL** + **Clic**
 
 ![levantar servidor](https://github.com/jullianamigoes/assets_proj/blob/main/assets/mi_extractor_de_video/servidor_web.png)
+
 
 
 ### Imagen de la Web
