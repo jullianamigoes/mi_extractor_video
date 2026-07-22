@@ -38,7 +38,13 @@ mi_extractor_video/
 
 ## Configuración inicial
 
-  1. Descargamos archivo .zip el repositorio o lo clonamos con git: **git clon **
+  1. Descargamos archivo .zip el repositorio o
+     lo clonamos con git:
+     
+```text
+**git clone https://github.com/jullianamigoes/mi_extractor_video.git**
+```
+
   2. Abrimos la terminal bash o cmd. Nos ubicamos en la raíz del proyecto y ejecutamos el siguiente comando:
 
 ```text
