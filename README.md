@@ -38,7 +38,7 @@ mi_extractor_video/
 
 ## Configuración inicial
 
-  1. Descargamos archivo .zip el repositorio o
+  1. Descargamos archivo ***.zip*** del repositorio o
      lo clonamos con git:
      
 ```text
