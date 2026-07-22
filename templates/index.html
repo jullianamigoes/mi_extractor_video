@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extractor de Videos</title>
+    <!-- Vinculo al CSS local dentro de static/css/ -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <main class="container">
+        <div class="card">
+            <h1>Descargador de Video</h1>
+            <p class="subtitle">Ingresa la URL del video para extraer el archivo MP4</p>
+
+            <form id="downloadForm" onsubmit="event.preventDefault(); procesarVideo();">
+                <div class="input-group">
+                    <input 
+                        type="url" 
+                        id="videoUrl" 
+                        placeholder="https://www.ejemplo.com/watch?v=..." 
+                        required
+                    >
+                </div>
+                <button type="submit" id="btnSubmit">
+                    <span id="btnText">Obtener Video</span>
+                    <span id="spinner" class="spinner hidden"></span>
+                </button>
+            </form>
+
+            <div id="statusMessage" class="status-message hidden"></div>
+        </div>
+    </main>
+
+    <!-- Vinculo al JS local dentro de static/js/ -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
